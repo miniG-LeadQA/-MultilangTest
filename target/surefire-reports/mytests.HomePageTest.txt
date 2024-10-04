@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: mytests.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 4.262 sec <<< FAILURE!
+setup(mytests.HomePageTest)  Time elapsed: 4.003 sec  <<< FAILURE!
+org.openqa.selenium.remote.NoSuchDriverException: chromedriver at location C:\Driver\chromedriver_128, does not exist
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:76)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:33)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+	at Factory.DriverFactory.initDriver(DriverFactory.java:22)
+	at mytests.HomePageTest.setup(HomePageTest.java:29)
+
